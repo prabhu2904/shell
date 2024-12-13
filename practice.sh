@@ -14,6 +14,6 @@ then
    echo -e "$R ERROR :: please run with root access $N"
 
 else 
-   echo -e  "$G you are a root user $N" &>> LOGFILE
+   echo -e  "$G you are a root user $N" &>> $LOGFILE
 
 fi
