@@ -17,3 +17,5 @@ else
    echo -e  "$G you are a root user $N" &>> $LOGFILE
 
 fi
+
+yum install nginx -y &>> $LOGFILE
