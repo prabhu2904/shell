@@ -15,6 +15,6 @@ then
    echo -e "ERROR :: $R please run with root access$N"
 
 else 
-   echo -e $G " you are a root user"$N
+   echo -e  "$G you are a root user $N"
 
 fi
