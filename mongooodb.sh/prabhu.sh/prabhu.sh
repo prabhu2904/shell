@@ -18,7 +18,7 @@ else
 fi
 
 yum install nginx -y
-if [ ID -ne 0 ]
+if [ $ID -ne 0 ]
 then
   echo "error : please run script with root access... failed"
 else
@@ -26,9 +26,9 @@ else
 
 fi
 yum install redis -y
-if [ ID -ne 0 ]
+if [ $ID -ne 0 ]
 then
   echo "error : please run script with root access... failed"
 else
   echo "redis installed sucess"
-fi  
+fi
